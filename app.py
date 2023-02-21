@@ -24,7 +24,7 @@ class GuideSchema(ma.Schema):
         fields = ('title', 'content')
 
 guide_schema = GuideSchema()
-guide_schema = GuideSchema(many = True)
+guide_schema = GuideSchema(many=True)
 
 
 if __name__=='__main__':
